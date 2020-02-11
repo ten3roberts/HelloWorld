@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -11,9 +12,10 @@ int main()
 	cin >> name;
 	cout << "Enter age > " << flush;
 	cin >> age;
+	// Capitalize
+	name[0] = toupper(name[0]);
 
 	cout << "Hello " << name << endl;
-
 	if(age >= 18)
 	{
 		cout << "You can now drive" << endl;
