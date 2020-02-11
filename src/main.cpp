@@ -24,7 +24,10 @@ int main()
 	{
 		cout << "How's the alcohol?" << endl;
 	}
-
+	if(age >= 69)
+	{
+		cout << "Time to stop work" << endl;
+	}
 	cout << "\n\n" << flush;
 	return 0;
 }
